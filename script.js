@@ -1,1 +1,1 @@
-console.log('ReadyBoot website loaded.');
+console.log('ReadyBoot Launch Page Loaded');
