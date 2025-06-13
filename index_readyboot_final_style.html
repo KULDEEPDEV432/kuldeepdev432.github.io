@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReadyBoot - Bootable USB Creator by Kuldeep Developer</title>
+  <meta name="description" content="ReadyBoot is an advanced bootable USB creator tool developed by Kuldeep Prajapati. Easily create bootable USBs from ISO files with UEFI and FAT32 support." />
+  <meta name="keywords" content="ReadyBoot, bootable USB, ISO, Windows bootable, Kuldeep Prajapati, bootable USB creator" />
+  <meta name="author" content="Kuldeep Prajapati" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="usb-icon.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #000000;
+      color: #ffffff;
+    }
+    header {
+      padding: 20px 40px;
+      background-color: #000000;
+      display: flex;
+      align-items: center;
+    }
+    h1 {
+      font-size: 2.6rem;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+    }
+    .icon {
+      width: 28px;
+      margin-right: 10px;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding: 20px;
+      gap: 20px;
+    }
+    .carousel img {
+      width: 900px;
+      height: auto;
+      border-radius: 10px;
+      scroll-snap-align: start;
+    }
+    section {
+      padding: 40px;
+      border-bottom: 1px solid #333;
+    }
+    h2 {
+      color: #4da6ff;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .download-box {
+      background: #1e1e1e;
+      border: 2px solid #4da6ff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .download-box h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .download-box p {
+      font-size: 16px;
+      color: #ccc;
+    }
+    .download-box button {
+      background: linear-gradient(135deg, #4da6ff, #0066cc);
+      color: #fff;
+      padding: 14px 28px;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: 0.3s ease;
+    }
+    .download-box button:hover {
+      background: linear-gradient(135deg, #0066cc, #004c99);
+    }
+    .footer-text {
+      text-align: center;
+      margin: 80px 0 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><img src="usb-icon.png" alt="USB" class="icon"> READYBOOT</h1>
+  </header>
+
+  <main>
+    <div class="carousel">
+      <img src="slide1.png" alt="App Screenshot 1" />
+      <img src="slide2.png" alt="App Screenshot 2" />
+      <img src="slide3.png" alt="App Screenshot 3" />
+      <img src="slide4.png" alt="App Screenshot 4" />
+    </div>
+
+    <section>
+      <h2>Download</h2>
+      <div class="download-box">
+        <h3>ReadyBoot App</h3>
+        <p>Version: 1.0 • Released: 12 June 2025 • Size: 4.2 MB</p>
+        <a href="ReadyBoot_Setup.exe" download><button>⬇ Download Now</button></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>One-click bootable USB creation</li>
+        <li>Supports ISO for Windows, Linux, and more</li>
+        <li>UEFI & FAT32 support with automatic formatting</li>
+        <li>Dark mode UI + live preview</li>
+        <li>Splash screen branding: "Kuldeep Developer"</li>
+        <li>USB detection, multiple drive support</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Development</h2>
+      <p>ReadyBoot was developed to simplify USB boot creation with a focus on UEFI and FAT32 compatibility. The app includes advanced UI, splash branding, and custom code handling inspired by tools like Rufus.</p>
+    </section>
+
+    <section>
+      <h2>Source Code</h2>
+      <p>The source code will be published soon on GitHub under MIT License. It will include setup documentation, offline support, and editable components.</p>
+    </section>
+
+    <section>
+      <h2>License</h2>
+      <p>This software is provided under the MIT License. It is free for personal and commercial use with proper credit to the original developer.</p>
+    </section>
+
+    <section>
+      <h2>Changelog</h2>
+      <ul>
+        <li>v1.0 – First release (12 June 2025)</li>
+        <li>✔ UEFI + FAT32 handling</li>
+        <li>✔ Splash + multi-image preview</li>
+        <li>✔ Download + License agreement system</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p class="footer-text">
+        © 2025 ReadyBoot • Built by <strong>Kuldeep Prajapati</strong><br>
+        Subhas Nagar, BHL Jhansi
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
