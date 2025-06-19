@@ -1,1 +1,1 @@
-console.log("ReadyBoot site loaded.");
+// JS for desktop switch and ad loader
