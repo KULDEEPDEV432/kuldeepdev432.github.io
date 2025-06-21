@@ -1,1 +1,1 @@
-/* Final CSS with white text color and Razorpay button styling */
+body { font-family: sans-serif; } header { display: flex; justify-content: space-between; align-items: center; padding: 10px; }
