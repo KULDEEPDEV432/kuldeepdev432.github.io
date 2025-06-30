@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+header {
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.usb-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.top-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.download-box {
+  text-align: center;
+  background-color: #222;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.download-btn {
+  background-color: #06f;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
