@@ -1,36 +1,56 @@
 # ReadyBoot
 
-🚀 **ReadyBoot** is a lightweight, fast, and free tool to create bootable USB drives from ISO files — designed for Windows users.
+ReadyBoot is a free, fast, and portable tool to create bootable USB drives from ISO files.  
+It works perfectly on Windows 7, 10, and 11 — with no installation required.
 
 ---
 
-## 🔧 Features
+## 🚀 Features
 
-- 💽 Create bootable USBs from ISO files
-- ⚡ Fast performance with clean UI
-- 🖥 Supports Windows 7/10/11
-- 🔌 Plug & Play – No installation required
-- 🧊 Works offline – 100% portable
+- Create bootable USB drives from ISO files
+- Supports Windows 7, 10, and 11
+- Lightweight and fast performance
+- No installation required (Portable)
+- Works fully offline
 
 ---
 
 ## 📥 Download
 
-**Latest Version:** `v1.0`  
-**Platform:** Windows  
-**Download EXE:**  
-[📦 Click here to download ReadyBoot](https://kuldeepdev432.github.io/ReadyBoot_v1_FRESH.exe)
+Download the latest version of ReadyBoot:
+
+🔗 [Download ReadyBoot v1.0](https://kuldeepdev432.github.io/ReadyBoot_v1_FRESH.exe)
 
 ---
 
-## 📂 Source Code
+## 🧾 License
 
-The full source code of this project is open and available.
+ReadyBoot is licensed under the MIT License.
+
+🔗 [View Full License](https://kuldeepdev432.github.io/LICENSE.txt)
+
+---
+
+## 💻 Source Code
+
+The complete source code of ReadyBoot is available for learning and contribution.
 
 🔗 [View Source Code](https://kuldeepdev432.github.io/ReadyBoot_SourceCode.txt)
 
 ---
 
-## 📜 License
+## 🌐 Website
 
-This project is licensed under
+Official Website: [https://kuldeepdev432.github.io](https://kuldeepdev432.github.io)
+
+---
+
+## 👨‍💻 Developer
+
+Developed by **Kuldeep Prajapati**  
+📧 Email: kuldeepdeveloper123@gmail.com  
+📍 Subhas Nagar, Aaramachine, BHL, Jhansi – 284120
+
+---
+
+## 🔍 SEO Keywords
