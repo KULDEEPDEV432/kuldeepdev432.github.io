@@ -1,4 +1,5 @@
-/* === ReadyBoot Clean Pro Theme with Download Section === */
+
+/* === ReadyBoot Pro Optimized Theme === */
 body {
   background-color: #0d1117;
   color: #c9d1d9;
@@ -9,7 +10,7 @@ body {
 }
 header {
   background-color: #161b22;
-  color: white;
+  color: #fff;
   padding: 2rem 1rem;
   text-align: center;
   border-bottom: 1px solid #30363d;
@@ -18,7 +19,6 @@ header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 0.5rem;
   color: #58a6ff;
 }
 header p {
@@ -38,12 +38,11 @@ main {
   background-color: #161b22;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #30363d;
   transition: box-shadow 0.3s ease;
 }
 .card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 h2 {
   color: #58a6ff;
@@ -57,7 +56,7 @@ h2 {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 footer {
   background-color: #161b22;
@@ -67,7 +66,7 @@ footer {
   font-size: 0.95rem;
   border-top: 1px solid #30363d;
 }
-ol, ul {
+ul, ol {
   padding-left: 1.5rem;
 }
 li {
@@ -89,7 +88,7 @@ li {
 }
 .download-link:hover {
   background-color: #238636;
-  color: #ffffff;
+  color: #fff;
   border-color: #238636;
   box-shadow: 0 4px 10px rgba(35, 134, 54, 0.4);
 }
