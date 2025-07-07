@@ -1,109 +1,21 @@
 
-/* === ReadyBoot Pro Optimized Theme === */
 body {
   background-color: #0d1117;
   color: #c9d1d9;
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-header {
-  background-color: #161b22;
-  color: #fff;
-  padding: 2rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid #30363d;
-}
-header h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #58a6ff;
-}
-header p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  color: #8b949e;
-}
-main {
-  padding: 2rem;
-  max-width: 1100px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.card {
-  background-color: #161b22;
-  border-radius: 8px;
-  padding: 2rem;
-  border: 1px solid #30363d;
-  transition: box-shadow 0.3s ease;
-}
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-h2 {
-  color: #58a6ff;
-  font-weight: 600;
-  margin-top: 0;
-  font-size: 1.6rem;
-  border-left: 4px solid #58a6ff;
-  padding-left: 12px;
-}
-.hero-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-footer {
-  background-color: #161b22;
-  color: #8b949e;
-  text-align: center;
-  padding: 2rem 1rem;
-  font-size: 0.95rem;
-  border-top: 1px solid #30363d;
-}
-ul, ol {
-  padding-left: 1.5rem;
-}
-li {
-  margin-bottom: 0.5rem;
-}
-.usb-icon {
-  margin-right: 8px;
 }
 .download-link {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #58a6ff;
-  font-weight: 600;
-  text-decoration: none;
-  border: 1px solid #58a6ff;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: white;
+  box-shadow: 0 0 12px #00feba;
+  border: none;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.4s ease;
 }
 .download-link:hover {
-  background-color: #238636;
-  color: #fff;
-  border-color: #238636;
-  box-shadow: 0 4px 10px rgba(35, 134, 54, 0.4);
+  background: linear-gradient(135deg, #5b548a, #00feba);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00feba;
 }
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.3rem;
-  }
-  main {
-    padding: 1rem;
-  }
-  .card {
-    padding: 1.5rem;
-  }
-}
-
