@@ -16,7 +16,7 @@ body {
   font-size: 3rem;
   color: #58a6ff;
   text-shadow: 0 0 15px #58a6ff;
-  animation: pulse 2s infinite;
+  animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
@@ -89,4 +89,33 @@ footer {
   background-color: #161b22;
   color: #8b949e;
   border-top: 1px solid #30363d;
+}
+
+/* For Desktop (larger screens) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px; /* Desktop font size */
+  }
+
+  /* Adjust desktop elements */
+  .desktop-view {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For Mobile (smaller screens) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 14px; /* Mobile font size */
+  }
+
+  .desktop-view {
+    display: none; /* Hide desktop layout on mobile */
+  }
+
+  .mobile-view {
+    display: block; /* Show mobile layout */
+  }
 }
