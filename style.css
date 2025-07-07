@@ -16,7 +16,7 @@ body {
   font-size: 3rem;
   color: #58a6ff;
   text-shadow: 0 0 15px #58a6ff;
-  animation: pulse 5s infinite;
+  animation: pulse 15s infinite;
 }
 
 @keyframes pulse {
