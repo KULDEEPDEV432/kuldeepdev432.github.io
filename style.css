@@ -6,15 +6,10 @@ body {
   color: #c9d1d9;
 
 .usb-icon {
-  height: 48px;            /* Size as per your need */
+  height: 48px;
   width: auto;
   margin-right: 10px;
   vertical-align: middle;
-
-  /* Background handling */
-  background-color: transparent; /* removes any background color */
-  mix-blend-mode: multiply;      /* optional: helps merge image into background */
-  border-radius: 8px;            /* optional: rounded corners */
 }
 
 .hero {
