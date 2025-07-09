@@ -4,13 +4,17 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #0d1117;
   color: #c9d1d9;
-}
+
 .usb-icon {
-  height: 40px;
+  height: 48px;            /* Size as per your need */
   width: auto;
-  vertical-align: middle;
   margin-right: 10px;
-  border-radius: 8px;
+  vertical-align: middle;
+
+  /* Background handling */
+  background-color: transparent; /* removes any background color */
+  mix-blend-mode: multiply;      /* optional: helps merge image into background */
+  border-radius: 8px;            /* optional: rounded corners */
 }
 
 .hero {
