@@ -1,0 +1,93 @@
+
+body {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1b263b;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.2rem;
+}
+.usb-icon {
+  width: 36px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+section {
+  margin-bottom: 2.5rem;
+}
+h2 {
+  color: #e0e1dd;
+  border-bottom: 1px solid #415a77;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li::before {
+  content: "✔ ";
+  color: #00b4d8;
+}
+.download-link, .pro-button {
+  display: inline-block;
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,180,216,0.5);
+}
+.pro-button:hover {
+  background: linear-gradient(135deg, #0077b6, #023e8a);
+  box-shadow: 0 0 16px rgba(0,180,216,0.8);
+}
+.outline-button {
+  display: inline-block;
+  padding: 0.75rem 1.3rem;
+  border: 2px solid #00b4d8;
+  color: #00b4d8;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.outline-button:hover {
+  background-color: #00b4d8;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(0,180,216,0.6);
+}
+.hero-img, .how-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+footer {
+  background-color: #1b263b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.ads-placeholder {
+  margin-top: 1rem;
+  min-height: 90px;
+}
