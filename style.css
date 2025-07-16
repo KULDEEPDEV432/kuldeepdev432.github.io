@@ -1,48 +1,84 @@
 
+/* ---------- Global Styling ---------- */
 body {
   background-color: #0d1b2a;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  line-height: 1.7;
 }
+
+a {
+  color: #00b4d8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #90e0ef;
+}
+
+/* ---------- Header ---------- */
 header {
-  background-color: #1b263b;
+  background: linear-gradient(to right, #1b263b, #0d1b2a);
   color: #ffffff;
-  padding: 1.5rem;
+  padding: 2rem 1rem;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
 header h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
+
 .usb-icon {
   width: 36px;
   vertical-align: middle;
-  margin-right: 8px;
+  margin-right: 10px;
 }
+
+/* ---------- Main Content ---------- */
 main {
-  padding: 2rem;
-  max-width: 900px;
+  padding: 2rem 1.5rem;
+  max-width: 960px;
   margin: auto;
 }
+
 section {
-  margin-bottom: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+
+section:hover {
+  transform: translateY(-4px);
+}
+
 h2 {
-  color: #e0e1dd;
-  border-bottom: 1px solid #415a77;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+  color: #00b4d8;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #0077b6;
+  display: inline-block;
+  padding-bottom: 5px;
 }
-ul {
-  list-style: none;
-  padding-left: 0;
+
+ul, ol {
+  padding-left: 1.3rem;
 }
-ul li::before {
-  content: "✔ ";
+
+ul li::marker,
+ol li::marker {
   color: #00b4d8;
 }
-.download-link, .pro-button {
+
+/* ---------- Buttons ---------- */
+.pro-button {
   display: inline-block;
   padding: 0.9rem 1.5rem;
   background: linear-gradient(135deg, #00b4d8, #0077b6);
@@ -52,12 +88,14 @@ ul li::before {
   font-weight: bold;
   font-size: 1rem;
   transition: 0.3s ease;
-  box-shadow: 0 0 10px rgba(0,180,216,0.5);
+  box-shadow: 0 0 12px rgba(0,180,216,0.4);
 }
+
 .pro-button:hover {
   background: linear-gradient(135deg, #0077b6, #023e8a);
   box-shadow: 0 0 16px rgba(0,180,216,0.8);
 }
+
 .outline-button {
   display: inline-block;
   padding: 0.75rem 1.3rem;
@@ -66,20 +104,27 @@ ul li::before {
   background-color: transparent;
   text-decoration: none;
   border-radius: 8px;
-  margin-right: 1rem;
+  margin: 0.5rem 1rem 0.5rem 0;
   font-weight: bold;
   transition: 0.3s ease;
 }
+
 .outline-button:hover {
   background-color: #00b4d8;
   color: #ffffff;
   box-shadow: 0 0 12px rgba(0,180,216,0.6);
 }
+
+/* ---------- Images ---------- */
 .hero-img, .how-img {
   max-width: 100%;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 1rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
+
+/* ---------- Footer ---------- */
 footer {
   background-color: #1b263b;
   color: white;
@@ -87,7 +132,24 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
 .ads-placeholder {
   margin-top: 1rem;
   min-height: 90px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .pro-button, .outline-button {
+    font-size: 0.95rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
 }
