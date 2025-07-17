@@ -1,1 +1,1 @@
-console.log('ReadyBoot Ultra Pro Loaded');
+console.log('ReadyBoot Pro Layout V2 Loaded');
