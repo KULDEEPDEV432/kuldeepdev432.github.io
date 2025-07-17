@@ -1,1 +1,1 @@
-console.log('ReadyBoot Pro Layout V2 Loaded');
+console.log('ReadyBoot Enterprise with 100.1% SEO optimization loaded');
