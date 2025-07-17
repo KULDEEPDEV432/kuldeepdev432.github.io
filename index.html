@@ -2,77 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ReadyBoot - Bootable USB Creator</title>
-  <meta name="description" content="ReadyBoot helps you create bootable USB drives in seconds. Stylish, fast, powerful."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ReadyBoot - Create bootable USB drives easily.">
+  <meta name="keywords" content="ReadyBoot, bootable USB, Rufus alternative, ISO to USB, Kuldeep Developer">
+  <meta name="author" content="Kuldeep Developer">
+  <title>ReadyBoot</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <nav class="navbar">
-    <div class="logo">🧩 ReadyBoot</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#how">How It Works</a></li>
-      <li><a href="#download">Download</a></li>
-      <li><a href="#license">License</a></li>
-    </ul>
-  </nav>
-
-  <header class="hero-section">
-    <div class="hero-content">
-      <h1><span>READYBOOT</span><br>Create Bootable USBs in Seconds</h1>
-      <p>One-click powerful USB tool for Windows users.</p>
-      <a href="#download" class="btn-main">⬇ Get ReadyBoot</a>
+  <header>
+    <div class="logo">
+      <img src="img/usb-icon.png" alt="USB Icon" />
+      <h1>READYBOOT</h1>
     </div>
+    <nav>
+      <ul>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#source">Source Code</a></li>
+        <li><a href="#license">License</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#development">Development</a></li>
+        <li><a href="#changelog">Changelog</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="about" class="section glass">
-    <h2>About ReadyBoot</h2>
-    <p>ReadyBoot is a powerful tool designed to simplify the process of creating bootable USB drives from ISO images. Whether you're installing a new OS or recovering your system, ReadyBoot is your quick, lightweight solution.</p>
+  <section class="hero">
+    <img src="img/hero-image.png" alt="Hero Image" />
+    <h2>Create Bootable USB Drives Effortlessly</h2>
+    <p>ReadyBoot makes it simple to turn any ISO file into a bootable USB drive. Fast. Reliable. Professional.</p>
+    <a class="download-btn" href="#">Download ReadyBoot</a>
   </section>
 
-  <section id="features" class="section dark">
-    <h2>Features</h2>
-    <div class="grid">
-      <div class="card">⚡ Ultra Fast</div>
-      <div class="card">🧩 No Installation</div>
-      <div class="card">🖥️ Lightweight</div>
-      <div class="card">🔐 Secure</div>
-      <div class="card">🌐 Offline Support</div>
-      <div class="card">💻 Windows Compatible</div>
-    </div>
+  <section id="download">
+    <h2>Download</h2>
+    <p>ReadyBoot is a powerful and lightweight application to help users create bootable USB drives with ease.
+    It supports various ISO types, including Windows and Linux. Version 1.0.0 is optimized for speed and simplicity.
+    Click below to download the latest version of ReadyBoot and start your journey to hassle-free boot creation.
+    </p>
+    <a class="download-btn" href="#">Download v1.0.0</a>
   </section>
 
-  <section id="how" class="section glass">
-    <h2>How It Works</h2>
-    <ol>
-      <li>Open ReadyBoot.exe</li>
-      <li>Select your USB drive</li>
-      <li>Pick your ISO file</li>
-      <li>Click Start</li>
-      <li>Done! Your bootable USB is ready</li>
-    </ol>
+  <section id="source">
+    <h2>Source Code</h2>
+    <p>The source code for ReadyBoot is open for review and modification. Developers and contributors are welcome
+    to explore the architecture and suggest improvements. Transparency is key to security and innovation.
+    </p>
+    <a class="download-btn" href="#">View on GitHub</a>
   </section>
 
-  <section id="download" class="section dark center">
-    <h2>Download Now</h2>
-    <p>The latest version of ReadyBoot is just one click away.</p>
-    <a href="https://kuldeepdev432.github.io/ReadyBoot_v1_FRESH.exe" class="btn-download">⬇ Download ReadyBoot</a>
+  <section id="license">
+    <h2>License - MIT</h2>
+    <p>This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute,
+    sublicense, and/or sell copies of the Software. See the LICENSE file for full details.
+    </p>
   </section>
 
-  <section id="license" class="section glass center">
-    <h2>License & Source</h2>
-    <p>ReadyBoot is open-source and licensed under the MIT License.</p>
-    <a href="https://kuldeepdev432.github.io/LICENSE%20(1).txt" class="btn-outline">MIT License</a>
-    <a href="https://kuldeepdev432.github.io/ReadyBoot_SourceCode_AllInOne.txt" class="btn-outline">View Source Code</a>
+  <section id="usage">
+    <h2>How to Use</h2>
+    <p>1. Download ReadyBoot.<br>
+    2. Insert your USB drive.<br>
+    3. Open ReadyBoot and select your ISO file.<br>
+    4. Choose the USB drive from the list.<br>
+    5. Click 'Create Bootable Drive'.<br>
+    6. Wait for the process to finish.<br>
+    7. Your bootable USB is ready to use!<br>
+    </p>
+  </section>
+
+  <section id="development">
+    <h2>Development</h2>
+    <p>ReadyBoot is built using Python and Tkinter for the GUI. The app is developed for the Windows platform,
+    with future plans to extend compatibility. Our goal is to offer a simple yet powerful tool that helps
+    users without the need to rely on bulky third-party utilities.
+    </p>
+  </section>
+
+  <section id="changelog">
+    <h2>Changelog</h2>
+    <p><strong>v1.0.0</strong> - Initial Release<br>
+    - USB writing support<br>
+    - ISO validation<br>
+    - Basic error handling<br>
+    - Dark UI interface<br>
+    </p>
   </section>
 
   <footer>
-    <p>© 2025 ReadyBoot | Developed by Kuldeep Prajapati | Jhansi, India</p>
+    <p>© 2025 Kuldeep Developer – All rights reserved</p>
+    <p>Subhas Nagar, Aaramachine, BHL, Jhansi – 284120</p>
+    <p>Email: kuldeepdeveloper123@gmail.com</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
