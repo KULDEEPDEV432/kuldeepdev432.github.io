@@ -1,1 +1,1 @@
-console.log("ReadyBoot Pro Website Loaded.");
+console.log('ReadyBoot Ultra Pro Loaded');
